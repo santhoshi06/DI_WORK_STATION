@@ -1,0 +1,213 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(TARGET)	Makefile	/^$(TARGET): $(OBJS)$/;"	t
+%.o	Makefile	/^%.o: %.c$/;"	t
+ACTIVE	uart.h	/^#define ACTIVE /;"	d
+ATCommand	uart.h	/^} ATCommand;$/;"	t	typeref:struct:__anon1fe656370308
+ATQueue	uart.h	/^} ATQueue;$/;"	t	typeref:struct:__anon1fe656370408
+AT_COMMAND	uart.h	/^#define AT_COMMAND(/;"	d
+AUDIO_ENGINE	audio.h	/^} AUDIO_ENGINE;$/;"	t	typeref:struct:__anon46c938cd0108
+AUDIO_H	audio.h	/^#define AUDIO_H$/;"	d
+BLOCKED	uart.h	/^#define BLOCKED /;"	d
+BUFFER_SIZE	audio.h	/^#define BUFFER_SIZE /;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall$/;"	m
+CMD_ATA	uart.h	/^    CMD_ATA,$/;"	e	enum:__anon1fe656370103
+CMD_ATD	uart.h	/^    CMD_ATD,$/;"	e	enum:__anon1fe656370103
+CMD_ATE0	uart.h	/^    CMD_ATE0=0,$/;"	e	enum:__anon1fe656370103
+CMD_ATH	uart.h	/^    CMD_ATH,$/;"	e	enum:__anon1fe656370103
+CMD_CEER	uart.h	/^    CMD_CEER,$/;"	e	enum:__anon1fe656370103
+CMD_CFUN	uart.h	/^    CMD_CFUN,$/;"	e	enum:__anon1fe656370103
+CMD_CGMM	uart.h	/^    CMD_CGMM,$/;"	e	enum:__anon1fe656370103
+CMD_CGMR	uart.h	/^    CMD_CGMR,$/;"	e	enum:__anon1fe656370103
+CMD_CGSN	uart.h	/^    CMD_CGSN,$/;"	e	enum:__anon1fe656370103
+CMD_CHLD	uart.h	/^    CMD_CHLD,$/;"	e	enum:__anon1fe656370103
+CMD_CIMI	uart.h	/^    CMD_CIMI,$/;"	e	enum:__anon1fe656370103
+CMD_CLCC	uart.h	/^    CMD_CLCC,$/;"	e	enum:__anon1fe656370103
+CMD_CLIP	uart.h	/^    CMD_CLIP,$/;"	e	enum:__anon1fe656370103
+CMD_CLVL	uart.h	/^    CMD_CLVL,$/;"	e	enum:__anon1fe656370103
+CMD_CMEE	uart.h	/^    CMD_CMEE,$/;"	e	enum:__anon1fe656370103
+CMD_COPS	uart.h	/^    CMD_COPS,$/;"	e	enum:__anon1fe656370103
+CMD_COUNT	uart.h	/^    CMD_COUNT$/;"	e	enum:__anon1fe656370103
+CMD_CPIN	uart.h	/^    CMD_CPIN,$/;"	e	enum:__anon1fe656370103
+CMD_CREG_0	uart.h	/^    CMD_CREG_0,$/;"	e	enum:__anon1fe656370103
+CMD_CREG_Q	uart.h	/^    CMD_CREG_Q,$/;"	e	enum:__anon1fe656370103
+CMD_CSCA	uart.h	/^    CMD_CSCA,$/;"	e	enum:__anon1fe656370103
+CMD_CSCS	uart.h	/^    CMD_CSCS,$/;"	e	enum:__anon1fe656370103
+CMD_CSQ	uart.h	/^    CMD_CSQ,$/;"	e	enum:__anon1fe656370103
+CMD_MUTE0	uart.h	/^    CMD_MUTE0,$/;"	e	enum:__anon1fe656370103
+CMD_MUTE1	uart.h	/^    CMD_MUTE1,$/;"	e	enum:__anon1fe656370103
+CMD_QAUDMOD	uart.h	/^    CMD_QAUDMOD,$/;"	e	enum:__anon1fe656370103
+CMD_QCFG	uart.h	/^    CMD_QCFG,$/;"	e	enum:__anon1fe656370103
+CMD_QDAI	uart.h	/^    CMD_QDAI,$/;"	e	enum:__anon1fe656370103
+CMD_QPCMV0	uart.h	/^    CMD_QPCMV0,$/;"	e	enum:__anon1fe656370103
+CMD_QPCMV1	uart.h	/^    CMD_QPCMV1,$/;"	e	enum:__anon1fe656370103
+COM_STUCK	uart.h	/^    COM_STUCK$/;"	e	enum:__anon1fe656370203
+CONNECTED	uart.h	/^#define CONNECTED /;"	d
+CommandIndex	uart.h	/^} CommandIndex;$/;"	t	typeref:enum:__anon1fe656370103
+DIALING	uart.h	/^    DIALING,$/;"	e	enum:__anon1fe656370203
+DISCONNECTED	uart.h	/^#define DISCONNECTED /;"	d
+DI_SERIAL	uart.h	/^} DI_SERIAL;$/;"	t	typeref:struct:__anon1fe656370608
+FAILURE	uart.h	/^#define FAILURE /;"	d
+HANGUP	uart.h	/^    HANGUP,$/;"	e	enum:__anon1fe656370203
+IDLE	uart.h	/^    IDLE,$/;"	e	enum:__anon1fe656370203
+INACTIVE	uart.h	/^#define INACTIVE /;"	d
+LIBS	Makefile	/^LIBS = -lwinmm -lsetupapi -lwebsockets -lcjson$/;"	m
+MAX_CLIENTS	websocket.c	/^#define MAX_CLIENTS /;"	d	file:
+NUM_BUFFERS	audio.h	/^#define NUM_BUFFERS /;"	d
+OBJS	Makefile	/^OBJS = $(SRCS:.c=.o)$/;"	m
+ON_CALL	uart.h	/^    ON_CALL,$/;"	e	enum:__anon1fe656370203
+ON_HOLD	uart.h	/^    ON_HOLD,$/;"	e	enum:__anon1fe656370203
+PAUSE	uart.h	/^#define PAUSE /;"	d
+QUEUE_SIZE	uart.h	/^#define QUEUE_SIZE /;"	d
+READ_ERROR	uart.h	/^    READ_ERROR,$/;"	e	enum:__anon1fe656370203
+REMOTE_RING	uart.h	/^    REMOTE_RING,$/;"	e	enum:__anon1fe656370203
+RES_ERROR	uart.h	/^    RES_ERROR,$/;"	e	enum:__anon1fe656370203
+RES_IVLD	uart.h	/^    RES_IVLD,$/;"	e	enum:__anon1fe656370203
+RES_OK	uart.h	/^    RES_OK = 0,$/;"	e	enum:__anon1fe656370203
+RES_TIMEOUT	uart.h	/^    RES_TIMEOUT,$/;"	e	enum:__anon1fe656370203
+RING	uart.h	/^    RING,$/;"	e	enum:__anon1fe656370203
+RUNNING	uart.h	/^#define RUNNING /;"	d
+Recording	uart.h	/^} Recording;$/;"	t	typeref:struct:__anon1fe656370508
+SRCS	Makefile	/^SRCS = main.c audio.c uart.c websocket.c$/;"	m
+STATE	uart.h	/^} STATE;$/;"	t	typeref:enum:__anon1fe656370203
+TARGET	Makefile	/^TARGET = di_work.exe$/;"	m
+This doc explains method to setup DI work Station in Windows Machine	README.md	/^# This doc explains method to setup DI work Station in Windows Machine$/;"	c
+UART_H	uart.h	/^#define UART_H$/;"	d
+WEBSOCKET_H	websocket.h	/^#define WEBSOCKET_H$/;"	d
+WSQueue	websocket.c	/^} WSQueue;$/;"	t	typeref:struct:__anon8a1bd07d0108	file:
+WS_MSG_SIZE	websocket.c	/^#define WS_MSG_SIZE /;"	d	file:
+WS_QUEUE_SIZE	websocket.c	/^#define WS_QUEUE_SIZE /;"	d	file:
+__anon1fe656370103	uart.h	/^typedef enum {$/;"	g
+__anon1fe656370203	uart.h	/^typedef enum {$/;"	g
+__anon1fe656370308	uart.h	/^typedef struct {$/;"	s
+__anon1fe656370408	uart.h	/^typedef struct {$/;"	s
+__anon1fe656370508	uart.h	/^typedef struct {$/;"	s
+__anon1fe656370608	uart.h	/^typedef struct {$/;"	s
+__anon46c938cd0108	audio.h	/^typedef struct {$/;"	s
+__anon8a1bd07d0108	websocket.c	/^typedef struct {$/;"	s	file:
+agent_id	uart.h	/^    char agent_id[20];       \/\/ agent name$/;"	m	struct:__anon1fe656370608	typeref:typename:char[20]
+all	Makefile	/^all: $(TARGET)$/;"	t
+at_queue	uart.h	/^    ATQueue at_queue;$/;"	m	struct:__anon1fe656370608	typeref:typename:ATQueue
+audio	audio.c	/^AUDIO_ENGINE audio = {$/;"	v	typeref:typename:AUDIO_ENGINE
+callID	uart.h	/^    int callID;$/;"	m	struct:__anon1fe656370608	typeref:typename:int
+call_recording	uart.h	/^    Recording call_recording;$/;"	m	struct:__anon1fe656370608	typeref:typename:Recording
+call_state	uart.h	/^    STATE call_state;$/;"	m	struct:__anon1fe656370608	typeref:typename:STATE
+callback_ws	websocket.c	/^static int callback_ws(struct lws *wsi,$/;"	f	typeref:typename:int	file:
+check_dongle	uart.c	/^int check_dongle(void)$/;"	f	typeref:typename:int
+clean	Makefile	/^clean:$/;"	t
+clients	websocket.c	/^static struct lws *clients[MAX_CLIENTS] = {0};$/;"	v	typeref:struct:lws * []	file:
+close_ec20_port	uart.c	/^void close_ec20_port(DI_SERIAL *dev)$/;"	f	typeref:typename:void
+cmd	uart.h	/^    CommandIndex cmd;$/;"	m	struct:__anon1fe656370308	typeref:typename:CommandIndex
+cmdi	uart.h	/^    CommandIndex cmdi;       \/\/ last command index$/;"	m	struct:__anon1fe656370608	typeref:typename:CommandIndex
+cmds	uart.c	/^static const char *cmds[CMD_COUNT] = {$/;"	v	typeref:typename:const char * []	file:
+comPort	uart.h	/^    char comPort[36];        \/\/ COM port name$/;"	m	struct:__anon1fe656370608	typeref:typename:char[36]
+configure_serial_port	uart.c	/^int configure_serial_port(HANDLE h)$/;"	f	typeref:typename:int
+console_handler	main.c	/^BOOL WINAPI console_handler(DWORD signal) {$/;"	f	typeref:typename:BOOL WINAPI
+console_handler	main_old.c	/^BOOL WINAPI console_handler(DWORD signal) {$/;"	f	typeref:typename:BOOL WINAPI
+custom_cmd	uart.h	/^    char custom_cmd[64];   \/\/ for ATD etc$/;"	m	struct:__anon1fe656370308	typeref:typename:char[64]
+dequeue_command	uart.c	/^int dequeue_command(DI_SERIAL *dev, ATCommand *out) {$/;"	f	typeref:typename:int
+di_running	uart.h	/^    volatile int di_running;$/;"	m	struct:__anon1fe656370608	typeref:typename:volatile int
+disconnect_dongle	uart.c	/^static void disconnect_dongle(DI_SERIAL *dev)$/;"	f	typeref:typename:void	file:
+dongle	uart.h	/^    volatile int dongle;$/;"	m	struct:__anon1fe656370608	typeref:typename:volatile int
+ec20_callback	audio.c	/^void CALLBACK ec20_callback(HWAVEIN hwi,$/;"	f	typeref:typename:void CALLBACK
+ec20_hdrs	audio.h	/^    WAVEHDR *ec20_hdrs;$/;"	m	struct:__anon46c938cd0108	typeref:typename:WAVEHDR *
+ec20_in	audio.h	/^    int ec20_in;$/;"	m	struct:__anon46c938cd0108	typeref:typename:int
+ec20_mix_buf	audio.c	/^char ec20_mix_buf[BUFFER_SIZE];$/;"	v	typeref:typename:char[]
+ec20_out	audio.h	/^    int ec20_out;$/;"	m	struct:__anon46c938cd0108	typeref:typename:int
+ec20_ready	audio.c	/^int ec20_ready = 0;$/;"	v	typeref:typename:int
+enqueue_command	uart.c	/^void enqueue_command(DI_SERIAL *dev, CommandIndex cmd) {$/;"	f	typeref:typename:void
+enqueue_custom	uart.c	/^void enqueue_custom(DI_SERIAL *dev, const char *cmd) {$/;"	f	typeref:typename:void
+event	uart.h	/^    HANDLE event;   \/\/ signal when new command arrives$/;"	m	struct:__anon1fe656370408	typeref:typename:HANDLE
+flush_queue	uart.c	/^void flush_queue(DI_SERIAL *dev)$/;"	f	typeref:typename:void
+flush_uart	uart.c	/^void flush_uart(HANDLE h)$/;"	f	typeref:typename:void
+friendly_name	uart.h	/^    char friendly_name[256];$/;"	m	struct:__anon1fe656370608	typeref:typename:char[256]
+front	uart.h	/^    int front;$/;"	m	struct:__anon1fe656370408	typeref:typename:int
+g_context	websocket.c	/^struct lws_context *g_context = NULL;$/;"	v	typeref:struct:lws_context *
+g_dev	websocket.c	/^static DI_SERIAL *g_dev = NULL;$/;"	v	typeref:typename:DI_SERIAL *	file:
+generate_filename	uart.c	/^void generate_filename(char *out, size_t size, const char *number)$/;"	f	typeref:typename:void
+get_audio_devices	audio.c	/^void get_audio_devices(void)$/;"	f	typeref:typename:void
+get_cmd	uart.c	/^char * get_cmd(DI_SERIAL *dev) {$/;"	f	typeref:typename:char *
+get_filename_only	uart.c	/^static const char* get_filename_only(const char *path)$/;"	f	typeref:typename:const char *	file:
+hSerial	uart.h	/^    HANDLE hSerial;          \/\/ serial handle$/;"	m	struct:__anon1fe656370608	typeref:typename:HANDLE
+hWaveInEC20	audio.h	/^    HWAVEIN hWaveInEC20;$/;"	m	struct:__anon46c938cd0108	typeref:typename:HWAVEIN
+hWaveInHead	audio.h	/^    HWAVEIN hWaveInHead;$/;"	m	struct:__anon46c938cd0108	typeref:typename:HWAVEIN
+hWaveOutEC20	audio.h	/^    HWAVEOUT hWaveOutEC20;$/;"	m	struct:__anon46c938cd0108	typeref:typename:HWAVEOUT
+hWaveOutHead	audio.h	/^    HWAVEOUT hWaveOutHead;$/;"	m	struct:__anon46c938cd0108	typeref:typename:HWAVEOUT
+hangup_requested	uart.h	/^    int hangup_requested;$/;"	m	struct:__anon1fe656370608	typeref:typename:int
+head	websocket.c	/^    int head;$/;"	m	struct:__anon8a1bd07d0108	typeref:typename:int	file:
+head_callback	audio.c	/^void CALLBACK head_callback(HWAVEIN hwi,$/;"	f	typeref:typename:void CALLBACK
+head_hdrs	audio.h	/^    WAVEHDR *head_hdrs;$/;"	m	struct:__anon46c938cd0108	typeref:typename:WAVEHDR *
+head_in	audio.h	/^    int head_in;$/;"	m	struct:__anon46c938cd0108	typeref:typename:int
+head_mix_buf	audio.c	/^char head_mix_buf[BUFFER_SIZE];$/;"	v	typeref:typename:char[]
+head_out	audio.h	/^    int head_out;$/;"	m	struct:__anon46c938cd0108	typeref:typename:int
+head_ready	audio.c	/^int head_ready = 0;$/;"	v	typeref:typename:int
+imei	uart.h	/^    char imei[64];$/;"	m	struct:__anon1fe656370608	typeref:typename:char[64]
+imsi	uart.h	/^    char imsi[64];$/;"	m	struct:__anon1fe656370608	typeref:typename:char[64]
+init_audio_devices	audio.c	/^int init_audio_devices()$/;"	f	typeref:typename:int
+init_dongle	main.c	/^void init_dongle(DI_SERIAL *dev)$/;"	f	typeref:typename:void
+init_dongle	main_old.c	/^void init_dongle(DI_SERIAL *dev)$/;"	f	typeref:typename:void
+init_queue	uart.c	/^void init_queue(ATQueue *q) {$/;"	f	typeref:typename:void
+init_recording	audio.c	/^void init_recording(DI_SERIAL *dev)$/;"	f	typeref:typename:void
+is_custom	uart.h	/^    int is_custom;$/;"	m	struct:__anon1fe656370308	typeref:typename:int
+keep_running	main.c	/^volatile int keep_running = 1;$/;"	v	typeref:typename:volatile int
+keep_running	main_old.c	/^volatile int keep_running = 1;$/;"	v	typeref:typename:volatile int
+lock	uart.h	/^    CRITICAL_SECTION lock;$/;"	m	struct:__anon1fe656370408	typeref:typename:CRITICAL_SECTION
+main	main.c	/^int main() {$/;"	f	typeref:typename:int
+main	main_old.c	/^int main() {$/;"	f	typeref:typename:int
+msgs	websocket.c	/^    char msgs[WS_QUEUE_SIZE][WS_MSG_SIZE];$/;"	m	struct:__anon8a1bd07d0108	typeref:typename:char[][]	file:
+mute	uart.h	/^    bool mute;$/;"	m	struct:__anon1fe656370608	typeref:typename:bool
+number	uart.h	/^    char number[20];         \/\/ dial number$/;"	m	struct:__anon1fe656370608	typeref:typename:char[20]
+open_ec20_at_port	uart.c	/^HANDLE open_ec20_at_port(DI_SERIAL *dev){$/;"	f	typeref:typename:HANDLE
+operator_name	uart.h	/^    char operator_name[64];$/;"	m	struct:__anon1fe656370608	typeref:typename:char[64]
+parse_ceer_response	uart.c	/^int parse_ceer_response(const char *line) {$/;"	f	typeref:typename:int
+parse_clcc	uart.c	/^int parse_clcc(DI_SERIAL *dev, const char *res)$/;"	f	typeref:typename:int
+play_audio	audio.c	/^void play_audio(HWAVEOUT outDev, char *data, DWORD size)$/;"	f	typeref:typename:void
+protocols	websocket.c	/^struct lws_protocols protocols[] = {$/;"	v	typeref:struct:lws_protocols[]
+queue	uart.h	/^    ATCommand queue[QUEUE_SIZE];$/;"	m	struct:__anon1fe656370408	typeref:typename:ATCommand[]
+read_at_response	uart.c	/^int read_at_response(DI_SERIAL *dev, CommandIndex cmd) {$/;"	f	typeref:typename:int
+rear	uart.h	/^    int rear;$/;"	m	struct:__anon1fe656370408	typeref:typename:int
+rec	audio.c	/^Recording *rec = NULL;$/;"	v	typeref:typename:Recording *
+rec_fd	uart.h	/^    FILE *rec_fd;$/;"	m	struct:__anon1fe656370508	typeref:typename:FILE *
+rec_lock	uart.h	/^    CRITICAL_SECTION rec_lock;$/;"	m	struct:__anon1fe656370508	typeref:typename:CRITICAL_SECTION
+recording_file	uart.h	/^    char recording_file[128];$/;"	m	struct:__anon1fe656370508	typeref:typename:char[128]
+recording_status	uart.h	/^    int recording_status;$/;"	m	struct:__anon1fe656370508	typeref:typename:int
+remove_crlf	uart.c	/^char* remove_crlf(char *str) {$/;"	f	typeref:typename:char *
+reopen_com_port	uart.c	/^HANDLE reopen_com_port(DI_SERIAL *dev)$/;"	f	typeref:typename:HANDLE
+rssi	uart.h	/^    int rssi;$/;"	m	struct:__anon1fe656370608	typeref:typename:int
+running	audio.h	/^    int running;$/;"	m	struct:__anon46c938cd0108	typeref:typename:int
+send_at_command	uart.c	/^int send_at_command(DI_SERIAL *dev, CommandIndex cmd) {$/;"	f	typeref:typename:int
+send_at_string	uart.c	/^int send_at_string(DI_SERIAL *dev, const char *cmd) {$/;"	f	typeref:typename:int
+sim	uart.h	/^    volatile int sim;$/;"	m	struct:__anon1fe656370608	typeref:typename:volatile int
+start_audio_engine	audio.c	/^int start_audio_engine(void)$/;"	f	typeref:typename:int
+state_to_string	uart.c	/^const char* state_to_string(STATE s) {$/;"	f	typeref:typename:const char *
+stop_audio_engine	audio.c	/^void stop_audio_engine(void)$/;"	f	typeref:typename:void
+stress_test_thread	main.c	/^DWORD WINAPI stress_test_thread(LPVOID arg)$/;"	f	typeref:typename:DWORD WINAPI
+stress_test_thread	main_old.c	/^DWORD WINAPI stress_test_thread(LPVOID arg)$/;"	f	typeref:typename:DWORD WINAPI
+tail	websocket.c	/^    int tail;$/;"	m	struct:__anon8a1bd07d0108	typeref:typename:int	file:
+thread_handle	uart.h	/^    HANDLE thread_handle;    \/\/ thread handle$/;"	m	struct:__anon1fe656370608	typeref:typename:HANDLE
+uart_monitor	uart.h	/^    HANDLE uart_monitor;$/;"	m	struct:__anon1fe656370608	typeref:typename:HANDLE
+uart_monitor_thread	main.c	/^DWORD WINAPI uart_monitor_thread(LPVOID arg) {$/;"	f	typeref:typename:DWORD WINAPI
+uart_monitor_thread	main_old.c	/^DWORD WINAPI uart_monitor_thread(LPVOID arg) {$/;"	f	typeref:typename:DWORD WINAPI
+uart_thread	uart.h	/^    HANDLE uart_thread;$/;"	m	struct:__anon1fe656370608	typeref:typename:HANDLE
+uart_thread_status	uart.h	/^    volatile int uart_thread_status;$/;"	m	struct:__anon1fe656370608	typeref:typename:volatile int
+uart_worker_thread	uart.c	/^DWORD WINAPI uart_worker_thread(LPVOID arg) {$/;"	f	typeref:typename:DWORD WINAPI
+update_audio_devices	audio.c	/^void update_audio_devices(int in, int out)$/;"	f	typeref:typename:void
+waveOutProc	audio.c	/^void CALLBACK waveOutProc(HWAVEOUT hwo,$/;"	f	typeref:typename:void CALLBACK
+websocket_thread	websocket.c	/^DWORD WINAPI websocket_thread(LPVOID arg) {$/;"	f	typeref:typename:DWORD WINAPI
+wfx	audio.h	/^    WAVEFORMATEX wfx;$/;"	m	struct:__anon46c938cd0108	typeref:typename:WAVEFORMATEX
+write_wav_header	audio.c	/^void write_wav_header(FILE *f, int data_size)$/;"	f	typeref:typename:void
+ws_enqueue	websocket.c	/^void ws_enqueue(const char *msg)$/;"	f	typeref:typename:void
+ws_lock	websocket.c	/^CRITICAL_SECTION ws_lock;$/;"	v	typeref:typename:CRITICAL_SECTION
+ws_queue	websocket.c	/^WSQueue ws_queue = {0};$/;"	v	typeref:typename:WSQueue
+ws_send_device_info	websocket.c	/^void ws_send_device_info($/;"	f	typeref:typename:void
+ws_send_hangup_status	websocket.c	/^void ws_send_hangup_status(const char *agent_id, const char *state, const char *number, const in/;"	f	typeref:typename:void
+ws_send_onCall_status	websocket.c	/^void ws_send_onCall_status(const char *agent_id, const char *state, const char *number, const ch/;"	f	typeref:typename:void
+ws_send_sound_devices	websocket.c	/^void ws_send_sound_devices(const char *devices)$/;"	f	typeref:typename:void
+ws_send_status	websocket.c	/^void ws_send_status(const char *agent_id, const char *state, const char *number)$/;"	f	typeref:typename:void
+ws_thread	uart.h	/^    HANDLE ws_thread;$/;"	m	struct:__anon1fe656370608	typeref:typename:HANDLE

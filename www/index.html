@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WSS Test</title>
+</head>
+<body>
+
+<h2>WebSocket Test</h2>
+
+<button onclick="connect()">Connect</button>
+
+<p id="status">Status: Disconnected</p>
+
+<script>
+function connect() {
+    const ws = new WebSocket("wss://127.0.0.1:9000", "ws-protocol");
+
+    ws.onopen = function() {
+        document.getElementById("status").innerHTML = "Status: Connected";
+        console.log("Connected");
+    };
+
+    ws.onmessage = function(event) {
+        console.log("Received:", event.data);
+        alert("Received: " + event.data);
+    };
+
+    ws.onerror = function(error) {
+        console.log("WebSocket Error", error);
+        document.getElementById("status").innerHTML = "Status: Error";
+    };
+
+    ws.onclose = function(event) {
+        console.log("Closed", event.code, event.reason);
+        document.getElementById("status").innerHTML = "Status: Closed";
+    };
+}
+</script>
+
+</body>
+</html>
